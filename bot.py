@@ -11,9 +11,9 @@ from telegram.ext import (
     ContextTypes,
 )
 
-# --- НАСТРОЙКИ (Берем из настроек Railway) ---
-TOKEN = os.getenv("8693389808:AAEWNdONwm209Ev_TRYJjLDhfebXYVG7tPs")
-ADMIN_ID = os.getenv("6431820823")
+# --- НАСТРОЙКИ (Вставляем напрямую) ---
+TOKEN = "8693389808:AAEWNdONwm209Ev_TRYJjLDhfebXYVG7tPs"
+ADMIN_ID = 6431820823 # Тут без кавычек, так как это число
 
 # Состояния
 SELECT_PRODUCT, WAIT_FOR_TAG = range(2)
