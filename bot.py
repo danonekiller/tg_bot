@@ -12,9 +12,9 @@ from telegram.ext import (
 )
 
 # --- НАСТРОЙКИ (Берем из Railway) ---
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("8693389808:AAEWNdONwm209Ev_TRYJjLDhfebXYVG7tPs")
 # Теперь можно вписать ID через запятую в Railway, например: 12345,67890
-ADMIN_STR = os.getenv("ADMIN_ID", "")
+ADMIN_STR = os.getenv("6431820823", "")
 ADMIN_IDS = [int(i.strip()) for i in ADMIN_STR.split(",") if i.strip().isdigit()]
 
 # Состояния
